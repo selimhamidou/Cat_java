@@ -4,7 +4,7 @@ import java.io.FileNotFoundException; // Import this class to handle errors
 
 public class Main {
     public static void main(String[] args) {
-        getFiles("/home/selim/Desktop/file1.txt", "/home/selim/Desktop/file2.txt", "/home/selim/Desktop/file3.txt");
+        getFiles(args);
     }
 
     public static void getFiles(String... args) {
